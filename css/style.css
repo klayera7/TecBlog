@@ -73,6 +73,10 @@ body {
     margin-right: 20px;
 }
 
+.post, h2{
+    margin-bottom: 4px;
+}
+
 .data {
     font-size: 13px;
     padding-bottom: 10px;
@@ -81,9 +85,17 @@ body {
 }
 
 #area-lateral {
+    display: flex;
+    flex-direction: column;
     width: 240px;
     float: right;
-    gap: 20px;
+    gap: 8px;
+}
+
+#area-lateral , h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
 }
 
 #GTA {
